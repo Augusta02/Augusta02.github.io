@@ -1,0 +1,9 @@
+originOfCoffee :: [Char] -> [Char]
+originOfCoffee name =
+    case name of 
+        "Diego Campos" -> "Colombia"
+        "Dumerso" -> "Ethiopia"
+        "Alfonso Urriola" -> "Panama"
+        _-> "I don't know this coffee name"
+
+originOfCoffee $ "Diego Campos"
